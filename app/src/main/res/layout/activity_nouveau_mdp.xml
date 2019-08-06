@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nouveau_mdp">
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="393dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="205dp"
+        android:background="@color/colorblanc"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/btn_connexion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Nouveau mot de passe"
+            android:textAllCaps="false"
+            android:textColor="@color/colorDark"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_mdp1"
+            android:layout_width="270dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/bg_color"
+            android:hint="Nouveau mot de passe"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/edt_code_validation"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/bg_color"
+            android:hint="Retapper mot de passe"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/btn_valider"
+            android:layout_width="164dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorDark"
+            android:gravity="center"
+            android:text="VALIDER"
+            android:textColor="@color/colorblanc" />
+
+    </LinearLayout>
+
+</RelativeLayout>
